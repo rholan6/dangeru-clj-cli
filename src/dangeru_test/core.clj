@@ -40,6 +40,3 @@
     (if (string/ends-with? one "thread")
       (println (thread (rest args)))
       (println one " is not a valid command, use index or thread"))))
-
-;;(defn -main [& args]
-;;  (println "Fuck this gay language"))
